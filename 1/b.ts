@@ -10,7 +10,7 @@ const spelledToNumbers = () => {
     }
 }
 
-let input = await Deno.readTextFile("1/input.txt");
+let input = await Deno.readTextFile("input.txt");
 spelledToNumbers()
 const nonDigits = new RegExp("[a-z]", "gm")
 const lines = input.replaceAll(nonDigits, "").split("\r\n")

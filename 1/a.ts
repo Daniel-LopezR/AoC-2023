@@ -1,5 +1,5 @@
 export const a = "";
-const input = await Deno.readTextFile("1/input.txt");
+const input = await Deno.readTextFile("input.txt");
 const lines = input.split("\r\n")
 let totalSum = 0;
 console.log("Finding calibration values and adding them...");
