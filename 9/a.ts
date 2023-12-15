@@ -35,7 +35,6 @@ histories.forEach(history => {
     genSequence(sequences);
     newValues.push(genNewValue(sequences));
 })
-console.log(newValues);
 totalSum = newValues.reduce((a, b) => a + b);
 console.log(totalSum);
 console.timeEnd()
